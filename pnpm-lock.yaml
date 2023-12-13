@@ -62,6 +62,9 @@ dependencies:
   typeorm:
     specifier: ^0.3.17
     version: 0.3.17(pg@8.11.3)(ts-node@10.9.1)
+  y3dc-libs:
+    specifier: github:y3dc/y3dc-libs
+    version: git@github.com+y3dc/y3dc-libs/f78f571d5b024227e7e28fd837591c63c56930b2
 
 devDependencies:
   '@types/bcrypt':
@@ -2145,3 +2148,9 @@ packages:
   /yn@3.1.1:
     resolution: {integrity: sha512-Ux4ygGWsu2c7isFWe8Yu1YluJmqVhxqK2cLXNQA5AcC3QfbGNpM7fu0Y8b/z16pXLnFxZYvWhd3fhBY9DLmC6Q==}
     engines: {node: '>=6'}
+
+  git@github.com+y3dc/y3dc-libs/f78f571d5b024227e7e28fd837591c63c56930b2:
+    resolution: {commit: f78f571d5b024227e7e28fd837591c63c56930b2, repo: git@github.com:y3dc/y3dc-libs.git, type: git}
+    name: y3dc-libs
+    version: 1.0.0
+    dev: false

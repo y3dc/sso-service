@@ -18,6 +18,8 @@
     "schema:drop": "npm run typeorm schema:drop"
   },
   "dependencies": {
+    "@grpc/grpc-js": "^1.9.9",
+    "@grpc/proto-loader": "^0.7.10",
     "bcrypt": "^5.1.1",
     "cookie-parser": "^1.4.6",
     "cors": "^2.8.5",
@@ -35,8 +37,7 @@
     "pg": "^8.11.3",
     "reflect-metadata": "^0.1.13",
     "typeorm": "^0.3.17",
-    "@grpc/grpc-js": "^1.9.9",
-    "@grpc/proto-loader": "^0.7.10"
+    "y3dc-libs": "github:y3dc/y3dc-libs"
   },
   "devDependencies": {
     "@types/bcrypt": "^5.0.2",

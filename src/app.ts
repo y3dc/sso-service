@@ -7,6 +7,7 @@ import errorHandler from 'middlewares/error-handler.middleware'
 import passportConfig from 'modules/auth/strategies/passport-config'
 import morgan from 'morgan'
 import appRoutes from 'routes'
+import { HttpStatus } from 'y3dc-libs'
 
 const app = express()
 
@@ -28,7 +29,7 @@ app.use(errorHandler)
 
 // not found page
 app.get('*', (_req, res) => {
-  return res.status(404).json({
+  return res.status(HttpStatus.NOT_FOUND).json({
     message: 'Not found!',
   })
 })
