@@ -10,3 +10,5 @@ export const POSTGRES_USER = process.env.POSTGRES_USER
 export const POSTGRES_PASSWORD = process.env.POSTGRES_PASSWORD
 export const POSTGRES_DATABASE = process.env.POSTGRES_DATABASE
 export const POSTGRES_PORT = process.env.POSTGRES_PORT
+
+export const AMQP_URL = process.env.AMQP_URL || ''
