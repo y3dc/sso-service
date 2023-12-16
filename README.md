@@ -14,3 +14,11 @@ Test gRPC
 - register
 - login
 - refreshToken
+
+### 
+1. `pnpm i`
+2. `pnpm migration:up`
+
+grpc-tools
+
+[example](https://github.com/stephenh/ts-proto/blob/main/integration/grpc-web/client-ts.ts)

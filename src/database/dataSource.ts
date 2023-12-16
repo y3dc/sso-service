@@ -17,7 +17,7 @@ const AppDataSource = new DataSource({
   // entities: [User],
   entities: ['src/modules/*/*.entity.ts'],
   migrations: ['src/database/migrations/*.ts'],
-  ssl: true,
+  // ssl: true,
 })
 
 export default AppDataSource
