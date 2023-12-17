@@ -1,8 +1,8 @@
 syntax = "proto3";
 
-package authPackage;
+package sso;
 
-service Auth {
+service AuthService {
   rpc Login(LoginRequest) returns (LoginResponse);
 }
 
