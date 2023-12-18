@@ -67,7 +67,7 @@ dependencies:
     version: 0.3.17(pg@8.11.3)(ts-node@10.9.1)
   y3dc-libs:
     specifier: github:y3dc/y3dc-libs
-    version: git@github.com+y3dc/y3dc-libs/aff33ff7fdecb9b3e63e9fd19b0991e1a03040e6(@grpc/grpc-js@1.9.11)(@nestjs/common@10.2.10)(@nestjs/core@10.2.10)(amqplib@0.10.3)(reflect-metadata@0.1.13)
+    version: git@github.com+y3dc/y3dc-libs/6cf63dc1a831a8e0c4801509fcd438b3046916d2(@grpc/grpc-js@1.9.11)(@nestjs/common@10.2.10)(@nestjs/core@10.2.10)(amqplib@0.10.3)(reflect-metadata@0.1.13)
 
 devDependencies:
   '@types/amqplib':
@@ -2399,9 +2399,9 @@ packages:
     resolution: {integrity: sha512-Ux4ygGWsu2c7isFWe8Yu1YluJmqVhxqK2cLXNQA5AcC3QfbGNpM7fu0Y8b/z16pXLnFxZYvWhd3fhBY9DLmC6Q==}
     engines: {node: '>=6'}
 
-  git@github.com+y3dc/y3dc-libs/aff33ff7fdecb9b3e63e9fd19b0991e1a03040e6(@grpc/grpc-js@1.9.11)(@nestjs/common@10.2.10)(@nestjs/core@10.2.10)(amqplib@0.10.3)(reflect-metadata@0.1.13):
-    resolution: {commit: aff33ff7fdecb9b3e63e9fd19b0991e1a03040e6, repo: git@github.com:y3dc/y3dc-libs.git, type: git}
-    id: git@github.com+y3dc/y3dc-libs/aff33ff7fdecb9b3e63e9fd19b0991e1a03040e6
+  git@github.com+y3dc/y3dc-libs/6cf63dc1a831a8e0c4801509fcd438b3046916d2(@grpc/grpc-js@1.9.11)(@nestjs/common@10.2.10)(@nestjs/core@10.2.10)(amqplib@0.10.3)(reflect-metadata@0.1.13):
+    resolution: {commit: 6cf63dc1a831a8e0c4801509fcd438b3046916d2, repo: git@github.com:y3dc/y3dc-libs.git, type: git}
+    id: git@github.com+y3dc/y3dc-libs/6cf63dc1a831a8e0c4801509fcd438b3046916d2
     name: y3dc-libs
     version: 1.0.0
     dependencies:
