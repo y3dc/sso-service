@@ -29,9 +29,16 @@ const login = async (username: string, password: string): Promise<UserAndToken |
   return null
 }
 
+const verifyToken = () => {}
+
+// TODO: cache
+const findUserByToken = () => {}
+
 const authService = {
   register,
   login,
+  verifyToken,
+  findUserByToken
 }
 
 export default authService

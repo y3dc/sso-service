@@ -1,9 +1,11 @@
 import { isEmpty } from 'lodash'
-import { AuthServiceHandlers } from 'proto/authPackage/AuthService'
+import { AuthServiceHandlers } from 'proto/sso/AuthService'
 import authService from './auth.service'
+import { ServerUnaryCall, sendUnaryData } from '@grpc/grpc-js'
 
-const authGrpcController: AuthServiceHandlers = {
-  Login: async (call, callback) => {
+const authGrpcController = {
+  // Login: async (call, callback) => {
+  Login: async (call: ServerUnaryCall<any, any>, callback: sendUnaryData<any>) => {
     console.log('>> grpc req: ', call.request)
 
     // TODO:-D validate, check null
@@ -13,7 +15,7 @@ const authGrpcController: AuthServiceHandlers = {
     const user = await authService.login(username, password)
     if (isEmpty(user)) return callback(null, { success: false, error: 'error' })
 
-    callback(null, { accesToken: user.accessToken, user: user.user })
+    callback(null, { accessToken: user.accessToken, user: user.user })
   },
 }
 
