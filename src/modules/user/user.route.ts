@@ -3,6 +3,6 @@ import userController from './user.controller'
 
 const userRoutes = Router()
 
-userRoutes.post('', userController.findAll)
+userRoutes.get('', userController.findAll)
 
 export default userRoutes
